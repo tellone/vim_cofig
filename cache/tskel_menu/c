@@ -1,0 +1,3 @@
+
+menu 90.20 TSke&l.f-loop :call tskeleton#ExpandBitUnderCursor("n", 'f-loop')<cr>
+imenu 90.20 TSke&l.f-loop <c-\><c-o>:call tskeleton#ExpandBitUnderCursor("i", 'f-loop')<cr>

@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/tellone/.vim/misc/vim-fuf-data'
+let g:netrw_dirhist_2='/home/tellone/current_config/zsh_rcs'
+let g:netrw_dirhist_3='/usr/lib/metasploit4.4'
+let g:netrw_dirhist_4='/home/tellone/myProjects/cortana-scripts'

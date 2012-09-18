@@ -1,0 +1,100 @@
+alias fire='firefox &',V
+l>   2 <head>   3 <title>Howl's Moving Castle</title>   4 <LINK rel=STYLESHEET href="ebook.css" Type="text/css">   5 <LINK rel=STYLESHEET href="../ebook.css" Type="text/css">   6 <LINK rel=STYLESHEET href="../../ebook.css" Type="text/css">   7 <LINK rel=STYLESHEET href="../../../ebook.css" Type="text/css">   8 <LINK rel=STYLESHEET href="../../../../ebook.css" Type="text/css">   9 </head>  10 <body>  11 <h4>Howl's Moving Castle</h4>  12 <h5>By Diana Wynne Jones</h5>  13 <hr>                    ,v
+(\<(/?[^\>]+)\>) ,V
+ ,v
+void,v
+   res = strncpy(addr->email, email, MAX_DATA);    if(!res) die("Email copy failed");,v
+if(!res) die("Email copy failed");,v
+81828384858687888990,2
+res = strncpy(addr->email, email, MAX_DATA); ,v
+  void Database_write(struct Connection *conn)  {      rewind(conn->file);        int rc = fwrite(conn->db, sizeof(struct Database), 1, conn->file);      if(rc != 1) die("Failed to write database.");        rc = fflush(conn->file);      if(rc == -1) die("Cannot flush database.");  },v
+Database_list(conn);,V
+81  void Database_write(struct Connection *conn)82  {83      rewind(conn->file);84  85      int rc = fwrite(conn->db, sizeof(struct Database), 1, conn->file);86      if(rc != 1) die("Failed to write database.");87  88      rc = fflush(conn->file);89      if(rc == -1) die("Cannot flush database.");90  },v
+88      rc = fflush(conn->file);89      if(rc == -1) die("Cannot flush database.");90  },v
+49  struct Connection* Database_open(const char *filename, char mode)50  {51      struct Connection *conn = malloc(sizeof(struct Connection));52      if(!conn) die("Memory error");53  54      conn->db = malloc(sizeof(struct Database));55      if(!conn->db) die("Memory error");56  57      if(mode == 'c') {58          conn->file = fopen(filename, "w");59      } else {60          conn->file = fopen(filename, "r+");61  62          if(conn->file) {63              Database_load(conn);64          }65      }66  67      if(!conn->file) die("Failed to open the file");68  69      return conn;70  }71  72  void Database_close(struct Connection *conn)73  {74      if(conn) {75          if(conn->file) fclose(conn->file);76          if(conn->db) free(conn->db);77          free(conn);78      }79  }80   ,v
+    switch(action) {        case 'c':            Database_create(conn);            Database_write(conn);            break;        case 'g':            if (argc < 4) die("Need an id to get it");            Database_get(conn, id);            break;        case 's':            if(argc != 6) die("Need id, name, email to set");            Database_set(conn, argv[5], argv[6]);            Database_write(conn);            break;            break;        case 'l':Database_list(conn);        default:die("Invalid action, only: c=create, g=get, s=set, d=del, l=list");             break;        case 'd':if(argc != 4) die("Need id to delete");                Database_delete(conn, id);            Database_write(conn);              break; ,V
+if(argc != 4) die("Need id to delete");183  184              Database_delete(conn, id);185              Database_write(conn);186              break;187  ,v
+,v
+Database_list(conn);190              break;191          default:192              die("Invalid action, only: c=create, g=get, s=set, d=del, l=list"); ,v
+            if(argc != 6) die("Need id, name, email to set");            Database_set(conn, argv[5], argv[6]);            Database_write(conn);            break;,V
+,V
+if(argc != 6) die("Need id, name, email to set"); ,v
+    conn->db->rows[id] = addr;,V
+void Database_list(struct Connection *conn),v
+struct Address *addr = &conn->db->rows[id];,v
+void Database_delete(struct Connection *conn, int id) {     struct Address addr = {.id = id, .set = 0};conn->db->rows[id] = addr;},V
+void Database_delete(struct Connection *conn, int id)131  {132      struct Address addr = {.id = id, .set = 0};133      conn->db->rows[id] = addr;134  },v
+void Database_set(struct Connection *conn, int id, const char *name, const char *email) ,v
+    conn->db = malloc(sizeof(struct Database));            if(!conn->db)die("Memory error");            if( mode == 'c') {            conn->file = fopen(filename, "w");            } else {            conn->file = fopen(filename, "r+");            if(conn->file){            Database_load(conn);            }            }            },V
+ection* Database_open(const char *filename, char mode) {    struct Connection *conn = malloc(sizeof(struct Connection));    if(conn!)die("Memory error");    conn->db; = malloc(sizeof(struct Database);            if(!conn->db)die("Memory error");            if( mode == 'c') {            conn->file = fopen(filename, "w");            } else {            conn->file = fopen(filename, "r+");            if  (conn->file){            Database_load(conn);            }            }            }            ,v
+struct Connection {    FILE *file;    struct Database *db;};void die(const char *message) {    if(errno) {        perror(message);    } else {        printf("ERROR; %s\n", *message)    }    exit(1);    },V
+/* #include <assert.h> *//* #include <stdlib.h> *//* #include <string.h> *//* #include <ctype.h> */,V
+destroy(joe);    Person_destroy(NULL);,v
+    printf("Joe is at mem. loc. %p:%n", joe);    Person_print(joe);,V
+int(joe);54   ,v
+    void Person_print(struct Person *who)    {        printf("Name: %s\n", who->name);        printf("\tAge: %d\n", who->age);        printf("\tHeight: %d\n", who->height);        printf("\tWeight: %d\n", who->weight);    },V
+int main(int argc, char *argv[]){,V
+void Person_print(struct Person *who)35  {36      printf("Name: %s\n", who->name);37      printf("\tAge: %d\n", who->age);38      printf("\tHeight: %d\n", who->height);39      printf("\tWeight: %d\n", who->weight);40  }41  ,v
+        assert(who != NULL);,V
+\item Tekniska Beräkningar genom frmför allt Matlab och Python.,V
+\item Teknisk Fysik, Lund Tekniska högskola  2006-2012,V
+getting wmv codecas,v
+codecs,v
+https://github.com/,v
+for(i = 0; i < count; i++) ,v
+#include <ctype.h>,v
+ int main(int argc, char *argv[])43  {,v
+1  #include <stdio.h>2  #include <assert.h>3  #include <stdlib.h>4  #include <string.h> ,v
+  #include <stdio.h>2  3  int main(int argc, char *argv[])4  { ,v
+apt-get --dry-run -u dist-upgrade,v
+apt-get --dry-run -u dist-upgrade,V
+            printf("arg %d: %s\n", i, argv[i]);,V
+Now weak and alone\\he need saving himeslefhow did he sink so very low\\he can't understand\par,V
+ruby rouges,v
+Now weak and alone\\he need saving himeslefhow did he sink so very low\\he can't understand\par,v
+My life is supermarket, and I am just it's revolving door.don't you know it's all for show and people come and goGreetings and gazes passes, its the same every day of the weekcome feel free this might be home for me but people come and goWhen things leaves me hanging, it is plenty of gossip for allTake it slow don't obstruct the flow and people come and goSpinning 120 turns per hour and my head keeps falling behindit all a race not to loose any face and people come and goGlass all around my bedroom so love will never stayI'm for sale completely unveiled and people come and goEverybody passes, our security will never be called,v
+one,v
+',v
+- Högskoleutbildning inom projektadministration eller likvärdig utbildning,v
+Utvändig skötsel, Städning på byggen och allmänt drift och underhåll av interna och externa faciliteter,v
+Jag har under min tid i med Free Software och linux fått mycket träning i att läsa olika typer av manualer eller andra instuktionsböcker och bug/felrapporter. En vanna jag toror kan vara andvänbar i ett flertal uppdrag.Jag har en lugn och sansad approch till de flesta problem och gillar alla typer av problemlösnig. Dessutom har jag alltid haftlätt för att komma överense med människor i min omgivning.  ,v
+"""""""""""""""""""""""""""""""" => General""""""""""""""""""""""""""""""""{{{syntax enable" Sets how many lines of history VIM has to rememberset history=700" Enable filetype pluginfiletype plugin indent on"to avoid confusion tell vim which shell you useset shell=/bin/zsh" Set to auto read when a file is changed from the outsideset autoread"fixes for unixset winaltkeys=noset backspace=eol,start,indent" With a map leader is the shortcut for global pluginslet mapleader = ","let g:mapleader = ",""Like mapleader but should be used for filetype spefic pluginslet maplocalleader = ";"let g:maplocalleader = ";"" Fast savingnmap <leader>w :w!<cr>" Fast editing of the .vimrcnmap <leader>ee :e! ~/.vim/.vimrc<cr>" When vimrc is edited, reload itaugroup vimrcs  au!  au bufwritepost /home/tellone/.vim/.vimrc         \ source /home/tellone/.vim/.vimrc |        \ if exists('g:Powerline_loaded') |          \ silent! call Pl#Load() |        \ endif augroup END"get the viminfo-file out of the way:set viminfo +=n$HOME/.vim/misc/cens/.viminfo"Backup and swapfilesset nobackupset nowbset noswapfileset undodir=/home/tellone/.vim/undodirset undofileset hid "Change buffer - without saving"no backup on these filenamesset backupskip+=*.tmp,crontab.*"Sets hub for external evalif has("balloon_eval") && has("unix")  set balloonevalendifset magic "Set magic on, for regular expressionsset complete-=i     " Searching includes can be slowset display=lastline"}}},v
+" => General""""""""""""""""""""""""""""""""{{{syntax enable" Sets how many lines of history VIM has to rememberset history=700" Enable filetype pluginfiletype plugin indent on"to avoid confusion tell vim which shell you useset shell=/bin/zsh" Set to auto read when a file is changed from the outsideset autoread"fixes for unixset winaltkeys=noset backspace=eol,start,indent" With a map leader is the shortcut for global pluginslet mapleader = ","let g:mapleader = ",""Like mapleader but should be used for filetype spefic pluginslet maplocalleader = ";"let g:maplocalleader = ";"" Fast savingnmap <leader>w :w!<cr>" Fast editing of the .vimrcnmap <leader>ee :e! ~/.vim/.vimrc<cr>" When vimrc is edited, reload itaugroup vimrcs  au!  au bufwritepost /home/tellone/.vim/.vimrc         \ source /home/tellone/.vim/.vimrc |        \ if exists('g:Powerline_loaded') |          \ silent! call Pl#Load() |        \ endif augroup END"get the viminfo-file out of the way:set viminfo +=n$HOME/.vim/misc/cens/.viminfo"Backup and swapfilesset nobackupset nowbset noswapfileset undodir=/home/tellone/.vim/undodirset undofileset hid "Change buffer - without saving"no backup on these filenamesset backupskip+=*.tmp,crontab.*"Sets hub for external evalif has("balloon_eval") && has("unix")  set balloonevalendifset magic "Set magic on, for regular expressionsset complete-=i     " Searching includes can be slowset display=lastline"}}},v
+Utvändig sköttsel, Städning på byggen och almännt drift och underhåll av interna och externa facilliteter,v
+http://di.fuge.it/rms.jpg,v
+alias gvim="UBUNTU_MENUPROXY=0 gvim",v
+UBUNTU_MENUPROXY= gcalctool,v
+llone:~/exC:$ lstellone:~/exC:$ ,v
+                 2.15){ $as_echo "$as_me:${as_lineno-$LINENO}: result: 2.15 family" >&5,V
+                 2.15){ $as_echo "$as_me:${as_lineno-$LINENO}: result: 2.15 family" >&5,v
+         2.15){ $as_echo "$as_me:${as_lineno-$LINENO}: result: 2.15 family" >&5$as_echo "2.15 family" >&6; }$as_echo "#define GLIBC_2_14 1" >>confdefs.hDEFAULT_SUPP="glibc-2.X.supp ${DEFAULT_SUPP}"DEFAULT_SUPP="glibc-2.34567-NPTL-helgrind.supp ${DEFAULT_SUPP}"DEFAULT_SUPP="glibc-2.X-drd.supp ${DEFAULT_SUPP}";;,v
+valgrind,v
+a855fda56edf05614f099dca316d1775,v
+              Website: <http://nginx.net/>,v
+              Website: <http://nginx.net/>,V
+(^\d+-|^\d+\S\d+-),v
+ flags=re.IGNORECASE,v
+More,V
+e.split('(-|\.)', filename),v
+hhhviiii,v
+os.listdir('.',v
+,,v
+T,v
+    os.rename(filename, newname),V
+\usepackage{epstopdf},V
+\begin{minipage}{0.45\linewidth}	\includegraphics[scale=0.06]{Bild428.jpg} \\\end{minipage},V
+:,v
+<,V
+<,v
+let g:ctrlp_mruf_max = 250<,v
+},V
+    /usr/bin/gvim -f "$@" &,V
+gvim(){ ,V
+if __name__=="main",V
+(,v
+e('[a-z]/S+'),v
+    newname = re.split(,V
+    if re.match('^[a-z]', file, flags=IGNORECASE) != None:,V
+sqrt2 = math.sqrt,V
+function extract() {    if [ -f $1 ] ; then        case $1 in            *.tar.bz2) tar xvjf $1 ;;            *.tar.gz) tar xvzf $1 ;;            *.bz2) bunzip2 $1 ;;            *.rar) unrar x $1 ;;            *.gz) gunzip $1 ;;            *.tar) tar xvf $1 ;;            *.tbz2) tar xvjf $1 ;;            *.tgz) tar xvzf $1 ;;            *.zip) unzip $1 ;;            *.Z) uncompress $1 ;;            *.7z) 7z x $1 ;;            *) echo "'$1' cannot be extracted via >extract<" ;;        esac    else        echo "'$1' is not a valid file"    fi},V
+                    continue,V
