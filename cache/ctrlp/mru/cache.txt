@@ -1,3 +1,4 @@
+/home/tellone/.vim/.git/COMMIT_EDITMSG
 /home/tellone/current_config/.git/COMMIT_EDITMSG
 /home/tellone/.vim/bundle/tskeleton/.git/COMMIT_EDITMSG
 /home/tellone/learnC/way to/upp_7.c
