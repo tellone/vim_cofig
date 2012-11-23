@@ -1,4 +1,127 @@
+/home/tellone/current_config/.git/COMMIT_EDITMSG
+/home/tellone/.vim/bundle/tskeleton/.git/COMMIT_EDITMSG
+/home/tellone/learnC/way to/upp_7.c
+/home/tellone/current_config/zsh_rcs/aliases
+/home/tellone/current_config/zsh_rcs/zsh_env
+/home/tellone/current_config/zsh_rcs/zsh_completion
+/home/tellone/.vim/colors/mycasts.vim
+/home/tellone/.vim/.vimrc
+/home/tellone/myProjects/eix/src/main/main_update_tools.cc
+/home/tellone/myProjects/eix/src/main/main.cc
+/home/tellone/myProjects/eix/src/main/main_diff.cc
+/home/tellone/myProjects/eix/src/main/main.h
+/home/tellone/learnC/devpkg/db.c
+/home/tellone/.vim/colors/lucius.vim
+/usr/share/vim/vim73/doc/gui_x11.txt
+/usr/share/vim/vim73/syntax/c.vim
+/home/tellone/learnC/devpkg/db.h
+/home/tellone/.vim/colors/peaksea.vim
+/home/tellone/.vim/plugin/cSyntaxAfter.vim
+/home/tellone/learnC/devpkg/bstrlib.c
 /home/tellone/.vim/README.md
+/home/tellone/learnC/devpkg/shell.c
+/home/tellone/learnC/devpkg/shell.h
+/home/tellone/learnC/devpkg/bstrlib.h
+/usr/share/vim/vim73/doc/map.txt
+/home/tellone/.vim/bundle/tagbar/autoload/tagbar.vim
+/home/tellone/.vim/bundle/tagbar/plugin/tagbar.vim
+/usr/share/vim/vim73/doc/autocmd.txt
+/media/Elements/bstrlib.txt
+/home/tellone/dbext_sql_history.txt
+/home/tellone/learnC/devpkg/Makefile
+/usr/share/vim/vimfiles/c-support/rc/customization.indent.pro
+/usr/share/vim/vimfiles/c-support/rc/customization.gvimrc
+/usr/share/vim/vimfiles/c-support/wordlists/c-c++-keywords.list
+/usr/include/malloc.h
+/home/tellone/keep/art/justMe/poems/spoof.tex
+/home/tellone/learnC/way to/upp_4.c
+/home/tellone/keep/art/justMe/poems/lyric/låttexter.tex
+/usr/include/bits/mathcalls.h
+/usr/include/math.h
+/home/tellone/keep/art/justMe/poems/lyric/Poems.tex
+/home/tellone/learnC/way to/upp_3.c
+/home/tellone/keep/art/justMe/poems/känslor.tex
+/home/tellone/keep/art/justMe/poems/ursäkternas mästare/ch3.tex
+/home/tellone/keep/art/justMe/poems/ursäkternas mästare/Ursäkternas mästare.tex
+/home/tellone/learnC/way to/2_1.c
+/home/tellone/keep/art/justMe/poems/ursäkternas mästare/ch2.tex
+/home/tellone/keep/art/justMe/poems/om månen log/if_the_moon_smiled.tex
+/home/tellone/keep/art/justMe/poems/lyric/kaffe.tex
+/home/tellone/learnC/hardway/ex19.c
+/usr/share/vim/vim73/doc/help.txt
+/home/tellone/keep/annat/d100/DUBE100B.sys
+/home/tellone/.cache/.fr-VbL7hL/zshrc
+/usr/share/vim/vim73/syntax/zsh.vim
+/home/tellone/zsh.vim
+/usr/portage/app-doc/zsh-lovers/zsh-lovers-0.8.3.ebuild
+/home/tellone/.zsh/zsh_history
+/home/tellone/keep/art/justMe/poems/ursäkternas mästare/ch1.tex
+/home/tellone/.vim/bundle/tempcolors/plugin/tempcolor.vim
+/home/tellone/.vim/job/tempcolors/plugin/tempcolor.vim
+/etc/portage/package.accept_keywords
+/etc/portage/package.use
+/etc/make.conf
+/home/tellone/myProjects/python_stuff/my_scipy/myspline.py
+/home/tellone/keep/ebooks/Fiction/Books/fantasy/Eddings, david/Belgariad 1 - Pawn of Prophecy.txt
+/etc/etc-update.conf
+/etc/default/rscsi
+/etc/default/cdrecord
+/etc/rc.conf
+/etc/timezone
+/etc/rmt
+/home/tellone/myProjects/python_stuff/plumbum/docs/api/utils.rst
+/home/tellone/myProjects/python_stuff/plumbum/docs/api/commands.rst
+/home/tellone/myProjects/python_stuff/plumbum/docs/utils.rst
+/home/tellone/myProjects/python_stuff/plumbum/README.rst
+/home/tellone/.vim/skeletons/skel.py
+/home/tellone/keep/ebooks/Math Complete/Math Complete list.txt
+/home/tellone/Downloads/no.java
+/home/tellone/myProjects/java/junit_intro/Calculator_test.java
+/home/tellone/myProjects/java/junit_intro/Calculator.java
+/home/tellone/Downloads/java.vim
+/home/tellone/myProjects/java/myTest.java
+/usr/share/junit-4/package.env
+/home/tellone/.vim/reading-rc.vim
+/usr/share/vim/vimfiles/syntax/java.vim
+/home/tellone/gitrepos/myProjects/eclipse_workspace/Going_somewhre/src/going_out.java
+/usr/share/vim/vim73/doc/motion.txt
+/usr/share/vim/vim73/syntax/java.vim
+/home/tellone/MyFisrstDrive.java
+/usr/share/vim/vim73/doc/csupport.txt
+/usr/share/vim/vimfiles/doc/cecutil.txt
+/usr/share/vim/vim73/doc/options.txt
+/home/tellone/learnC/object.c
+/home/tellone/myProjects/python_stuff/plumbum/setup.py
+/home/tellone/myProjects/python_stuff/plumbum/CHANGELOG.rst
+/home/tellone/myProjects/python_stuff/plumbum/.git/COMMIT_EDITMSG
+/home/tellone/.vim/skeletons/skel.java
+/home/tellone/myProjects/java/myFirstApp.j
+/home/tellone/current_config/zsh_rcs/zsh_config
+/home/tellone/current_config/zshrc
+/home/tellone/myProjects/eclipse_workspace/android-sdk-linux/tools/android
+/home/tellone/myProjects/eclipse_workspace/android-sdk-linux/SDK Readme.txt
+/home/tellone/Documents/Untitled Folder/vimi.tex
+/home/tellone/current_config/zsh_rcs/functions/extract.zsh
+/home/tellone/current_config/zsh_rcs/func_lib
+/usr/share/zsh/4.3.17/scripts/newuser
+/etc/zsh/zprofile
+/home/tellone/myProjects/tpope/.zshrc
+/home/tellone/current_config/zsh_rcs/tellone.zsh-theme
+/home/tellone/.vim/bundle/vim-ref/doc/ref-man.txt
+/home/tellone/.vim/bundle/vim-ref/autoload/ref/man.vim
+/home/tellone/myProjects/python_stuff/my_scipy/primes.py
+/home/tellone/bin/pyscripts/some_ruby.rb
+/home/tellone/bin/pregit
+/home/tellone/bin/pyscripts/stripdig.py
+/home/tellone/.themes/Legacy/gtk-2.0/gtkrc
+/home/tellone/.themes/Mirav2/index.theme
+/home/tellone/.icons/Xquisite/index.theme
+/home/tellone/.themes/Legacy/index.theme
+/home/tellone/.themes/Perfect/xfwm4/themerc
+/home/tellone/.themes/Mirav2/metacity-1/metacity-theme-1.xml
+/home/tellone/.themes/Legacy/gtk-2.0/elementary_nautilus.rc
+/home/tellone/Downloads/Brunswick/gtk-2.0/gtkrc
+/usr/lib/metasploit4.4/lib/fastlib.rb
 /home/tellone/Downloads/armitage/readme.txt
 /home/tellone/myProjects/python_stuff/my_scipy/allscipy_.py
 /home/tellone/myProjects/cortana-scripts/autofind/autofind.cna
@@ -6,16 +129,13 @@
 /home/tellone/myProjects/cortana-scripts/differ/differ.cna
 /home/tellone/myProjects/cortana-scripts/README.md
 /usr/portage/dev-java/junit/junit-4.10.ebuild
-/usr/share/junit-4/package.env
 /usr/share/junit/package.env
-/etc/portage/package.use
 /home/tellone/myProjects/cortana-scripts/sniffer/sniff.png
 /home/tellone/myProjects/cortana-scripts/sniffer/sniffer.cna
 /etc/mtab
 /etc/fstab
 /boot/grub/grub.conf
 /etc/gai.conf
-/home/tellone/current_config/.git/COMMIT_EDITMSG
 /home/tellone/need_intall.txt
 /home/tellone/myProjects/eix/src/eixTk/ansicolor.cc
 /home/tellone/myProjects/eix/src/eixTk/ansicolor.h
@@ -24,22 +144,16 @@
 /home/tellone/myProjects/eix/src/eix-drop-permissions.cc
 /home/tellone/myProjects/eix/src/eix-diff.cc
 /home/tellone/myProjects/eix/src/eix-installed.in
-/usr/share/vim/vim73/doc/help.txt
 /home/tellone/Public/id_rsa.pub
 /home/tellone/Public/id_rsa
-/home/tellone/.vim/reading-rc.vim
-/home/tellone/.vim/.vimrc
 /usr/lib/portage/pym/portage/glsa.py
 /usr/lib/metasploit4.4/test/functional/meterpreter/java_meterpreter_specs.rb
 /usr/lib/metasploit4.4/Gemfile
 /usr/lib/metasploit4.4/armitage
 /var/tmp/portage/app-text/fbreader-0.99.1/build-info/fbreader-0.99.1.ebuild
-/etc/portage/package.accept_keywords
 /etc/portage/package.env
 /etc/portage/package.license
 /home/tellone/.vim/.atprc.vim
-/home/tellone/keep/art/justMe/poems/lyric/Poems.tex
-/home/tellone/current_config/zsh_rcs/zsh_config
 /home/tellone/.vim/bundle/nerdtree/doc/NERD_tree.txt
 /usr/share/vim/vim73/doc/usr_03.txt
 /home/tellone/.vim/bundle/ctrlp/doc/ctrlp.txt
@@ -52,8 +166,6 @@
 /home/tellone/bin/openstuff
 /home/tellone/bin/growout
 /home/tellone/bin/flib
-/home/tellone/bin/pregit
-/home/tellone/myProjects/tpope/.zshrc
 /home/tellone/myProjects/tpope/.zshenv
 /home/tellone/myProjects/tpope/bin/tpope-config
 /home/tellone/myProjects/tpope/bin/tpope-hostman
@@ -62,6 +174,5 @@
 /usr/local/lib/personal/persadm
 /usr/local/lib/personal/persadm.sh
 /usr/local/lib/personal/install.4.19.1.11663.sh
-/home/tellone/current_config/zsh_rcs/tellone.zsh-theme
 /home/tellone/.oh-my-zsh/plugins/vi-mode/vi-mode.plugin.zsh
 /home/tellone/.oh-my-zsh/plugins/cpanm/_cpanm

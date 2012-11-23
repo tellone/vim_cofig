@@ -107,7 +107,7 @@ set whichwrap+=<,>,h,l
 if exists("&breakindent")
   set breakindent showbreak=+++
 elseif has("gui_running")
-  set showbreak=\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +++
+  set showbreak=\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +++
 endif
 
 "=> search settings and macros
@@ -267,7 +267,6 @@ if $TERM == 'xterm-color' && &t_Co == 8
 else
   set t_Co=256
   colorscheme mycasts
-  set background=dark
   set encoding=utf8
 endif
 
@@ -389,7 +388,7 @@ nmap <leader>ff :CtrlPMRUFiles<cr>
 
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$',
-  \ 'file': '\.exe$\|\.so$\|\.dll$',
+  \ 'file': '\.exe$\|\.so$\|\.dll$|\.bib$|\.aux$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
 let g:ctrlp_cache_dir =  '/home/tellone/.vim/cache/ctrlp'
@@ -419,7 +418,7 @@ nmap <leader>l :TagbarToggle<cr>
 let tskelUserName='Filip Pettersson'
 let tskelUserEmail='filip.diloom@gmail.com'
 let tskelLicence='Free Software'
-map <leader>s :TSkeletonSetup 
+nmap <leader>s :TSkeletonSetup 
 
 " => Twitvim
 " let twitvim_token_file = '/home/tellone/.vim/misc/cens/twitvim.token'
@@ -470,6 +469,13 @@ augroup FTMisc " {{{2
   autocmd BufReadPre *.pdf setlocal binary
   autocmd CursorHold,BufWritePost,BufReadPost,BufLeave *
     \ if isdirectory(expand("<amatch>:h")) | let &swapfile = &modified | endif
+  
+  autocmd BufEnter *NERD_tree*,__Tagbar__, __Gundo__
+        \ nnoremap <silent> <buffer> <up> k |
+        \ nnoremap <silent> <buffer> <down> j
+
+ 
+  
 augroup END " }}}2
 
 augroup FTCheck " {{{2
@@ -603,7 +609,6 @@ nnoremap <Leader>mm mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 "Quickly open a buffer for scripbble
 nmap <leader>qq :e ~/buffer<cr>
 nnoremap <leader>bb :OpenURL <cfile><CR>
-
 
 nnoremap <leader>" viw<esc>a;<esc>lel
 

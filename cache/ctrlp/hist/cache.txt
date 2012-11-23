@@ -1,2 +1,12 @@
 
+.c
+poems
+q
+poems
+poem
+text
+lyri
+:q
+py
+poems
 :q

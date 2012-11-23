@@ -230,7 +230,6 @@ elseif g:lucius_style == "light"
     hi MoreMsg      guifg=#2060c0   guibg=NONE      ctermfg=4      ctermbg=NONE      gui=none      cterm=none
     hi ModeMsg      guifg=#000000   guibg=NONE      ctermfg=16     ctermbg=NONE      gui=none      cterm=none
     hi Question     guifg=fg        guibg=NONE      ctermfg=NONE   ctermbg=NONE      gui=none      cterm=none
-    hi WarningMsg   guifg=#b03000   guibg=NONE      ctermfg=9      ctermbg=NONE      gui=none      cterm=none
     hi WildMenu     guifg=#000000   guibg=#c0e0ff   ctermfg=16     ctermbg=153       gui=none      cterm=none
     hi ColorColumn  guifg=NONE      guibg=#f0f0e0   ctermfg=NONE   ctermbg=230       gui=none      cterm=none
     hi Ignore       guifg=bg                        ctermfg=bg

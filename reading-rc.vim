@@ -258,7 +258,7 @@ cmap ½ $
 nmap <silent> <leader><cr> :noh<cr>
 
 "big Q formats text and no Ex-mode
-nmap Q ==
+nmap Q gwip
 
 " Smart way to move btw. windows
 nmap <C-j> <C-W>j
@@ -274,7 +274,7 @@ nmap <leader>ba :1,300 bd!<cr>
 
 
 " make space open fods
-nmap <space> za
+nmap <space> 3j
 
 "=> Foldchange
 nmap <leader>zz :call FoldChange()<cr>
