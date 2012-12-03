@@ -1,12 +1,67 @@
+/home/tellone/learnC/kernel/tlpi_hdr.h
+/home/tellone/learnC/kernel/error_functions.h
+/home/tellone/learnC/kernel/error_function.h
+/usr/share/vim/vim73/syntax/c.vim
+/usr/share/vim/vim73/doc/pattern.txt
+/usr/share/vim/vim73/doc/syntax.txt
+/boot/grub/grub.conf
+/home/tellone/current_config/zsh_rcs/zsh_env
+/home/tellone/.vim/pager_rc.vim
+/sbin/reboot
+/home/tellone/keep/art/justMe/poems/lyric/Poems.tex
+/usr/share/vim/vim73/doc/intro.txt
+/usr/share/vim/vim73/doc/csupport.txt
+/home/tellone/.vim/.vimrc
+/usr/share/vim/vim73/doc/options.txt
+/home/tellone/keep/art/justMe/poems/lyric/låttexter.tex
+/home/tellone/.vim/.atprc.vim
+/usr/share/vim/vimfiles/doc/automatic-tex-plugin.txt
+/home/tellone/keep/ebooks/programing/vim/learnvimscriptthehardway/chapters/23.markdown
+/home/tellone/keep/ebooks/programing/vim/learnvimscriptthehardway/config.py
+/home/tellone/keep/art/justMe/poems/spoof.tex
+/usr/share/vim/vim73/doc/help.txt
+/home/tellone/keep/annat/backup/MATLAB/const mat/fem/2011/projet 1/main1nr.m
+/home/tellone/keep/annat/backup/MATLAB/const mat/fem/2011/projet 1/apply_load.m
+/home/tellone/Documents/MATLAB/Non Linear FEM/ass 1/newt.m
+/home/tellone/Documents/MATLAB/Non Linear FEM/ass 1/data2012_1.m
+/home/tellone/Documents/doc/FEM-projekt/Main.m
+/home/tellone/Documents/MATLAB/Non Linear FEM/nr_metod.asv
+/home/tellone/Documents/MATLAB/Non Linear FEM/project 1/newte.m
+/home/tellone/Documents/MATLAB/Non Linear FEM/project 1/newt.m
+/home/tellone/Documents/MATLAB/Non Linear FEM/Newraph.m
+/home/tellone/Documents/MATLAB/Non Linear FEM/Newraph.asv
+/home/tellone/Documents/doc/kurs/fem/Newton_02.m
+/home/tellone/Documents/doc/kurs/fem/Newton_01.m
+/home/tellone/Documents/MATLAB/Non Linear FEM/ass 1/data2012_1crisf.m
+/home/tellone/Documents/MATLAB/Non Linear FEM/ass 1/main.m
+/home/tellone/.vim/after/ftplugin/matlab.vim
+/home/tellone/.vim/bundle/syntastic/syntax_checkers/matlab.vim
+/usr/local/MATLAB/R2011a/toolbox/datafeed/mcc.enc
+/mnt/crack/install.txt
+/mnt/crack/lic_standalone.dat
+/home/tellone/Downloads/Mathworks.Matlab.R2011a.UNIX.ISO-TBE/ml2011au.sfv
+/home/tellone/Downloads/Mathworks.Matlab.R2011a.UNIX.ISO-TBE/tbe.nfo
+/home/tellone/.cache/.fr-fNu082/install
+/usr/share/octave/3.4.3/m/path/savepath.m
+/usr/share/octave/3.4.3/m/path/matlabroot.m
+/usr/share/octave/3.4.3/m/path/pathdef.m
+/usr/share/octave/3.4.3/m/sparse/sprand.m
+/home/tellone/current_config/zsh_rcs/aliases
+/home/tellone/keep/ebooks/programing/Algorithms/(ebook) algorithm design manual.hlp
+/home/tellone/keep/ebooks/programing/Algorithms/Algorithms, Data Structures & Problem Solving with C++/Code/String.h
+/home/tellone/keep/ebooks/programing/Algorithms/Algorithms, Data Structures & Problem Solving with C++/Code/String.cpp
+/home/tellone/keep/ebooks/programing/Algorithms/Algorithms, Data Structures & Problem Solving with C++/Code/Permute.cpp
+/home/tellone/keep/ebooks/programing/Algorithms/Algorithms, Data Structures & Problem Solving with C++/Code/QueueAr.h
+/home/tellone/pager_rc.vim
+/home/tellone/.vim/pager_rc
+/etc/portage/package.accept_keywords
+/etc/portage/package.use
 /home/tellone/.vim/.git/COMMIT_EDITMSG
 /home/tellone/current_config/.git/COMMIT_EDITMSG
 /home/tellone/.vim/bundle/tskeleton/.git/COMMIT_EDITMSG
 /home/tellone/learnC/way to/upp_7.c
-/home/tellone/current_config/zsh_rcs/aliases
-/home/tellone/current_config/zsh_rcs/zsh_env
 /home/tellone/current_config/zsh_rcs/zsh_completion
 /home/tellone/.vim/colors/mycasts.vim
-/home/tellone/.vim/.vimrc
 /home/tellone/myProjects/eix/src/main/main_update_tools.cc
 /home/tellone/myProjects/eix/src/main/main.cc
 /home/tellone/myProjects/eix/src/main/main_diff.cc
@@ -14,7 +69,6 @@
 /home/tellone/learnC/devpkg/db.c
 /home/tellone/.vim/colors/lucius.vim
 /usr/share/vim/vim73/doc/gui_x11.txt
-/usr/share/vim/vim73/syntax/c.vim
 /home/tellone/learnC/devpkg/db.h
 /home/tellone/.vim/colors/peaksea.vim
 /home/tellone/.vim/plugin/cSyntaxAfter.vim
@@ -34,12 +88,9 @@
 /usr/share/vim/vimfiles/c-support/rc/customization.gvimrc
 /usr/share/vim/vimfiles/c-support/wordlists/c-c++-keywords.list
 /usr/include/malloc.h
-/home/tellone/keep/art/justMe/poems/spoof.tex
 /home/tellone/learnC/way to/upp_4.c
-/home/tellone/keep/art/justMe/poems/lyric/låttexter.tex
 /usr/include/bits/mathcalls.h
 /usr/include/math.h
-/home/tellone/keep/art/justMe/poems/lyric/Poems.tex
 /home/tellone/learnC/way to/upp_3.c
 /home/tellone/keep/art/justMe/poems/känslor.tex
 /home/tellone/keep/art/justMe/poems/ursäkternas mästare/ch3.tex
@@ -49,7 +100,6 @@
 /home/tellone/keep/art/justMe/poems/om månen log/if_the_moon_smiled.tex
 /home/tellone/keep/art/justMe/poems/lyric/kaffe.tex
 /home/tellone/learnC/hardway/ex19.c
-/usr/share/vim/vim73/doc/help.txt
 /home/tellone/keep/annat/d100/DUBE100B.sys
 /home/tellone/.cache/.fr-VbL7hL/zshrc
 /usr/share/vim/vim73/syntax/zsh.vim
@@ -59,8 +109,6 @@
 /home/tellone/keep/art/justMe/poems/ursäkternas mästare/ch1.tex
 /home/tellone/.vim/bundle/tempcolors/plugin/tempcolor.vim
 /home/tellone/.vim/job/tempcolors/plugin/tempcolor.vim
-/etc/portage/package.accept_keywords
-/etc/portage/package.use
 /etc/make.conf
 /home/tellone/myProjects/python_stuff/my_scipy/myspline.py
 /home/tellone/keep/ebooks/Fiction/Books/fantasy/Eddings, david/Belgariad 1 - Pawn of Prophecy.txt
@@ -88,9 +136,7 @@
 /usr/share/vim/vim73/doc/motion.txt
 /usr/share/vim/vim73/syntax/java.vim
 /home/tellone/MyFisrstDrive.java
-/usr/share/vim/vim73/doc/csupport.txt
 /usr/share/vim/vimfiles/doc/cecutil.txt
-/usr/share/vim/vim73/doc/options.txt
 /home/tellone/learnC/object.c
 /home/tellone/myProjects/python_stuff/plumbum/setup.py
 /home/tellone/myProjects/python_stuff/plumbum/CHANGELOG.rst
@@ -135,7 +181,6 @@
 /home/tellone/myProjects/cortana-scripts/sniffer/sniffer.cna
 /etc/mtab
 /etc/fstab
-/boot/grub/grub.conf
 /etc/gai.conf
 /home/tellone/need_intall.txt
 /home/tellone/myProjects/eix/src/eixTk/ansicolor.cc
@@ -154,7 +199,6 @@
 /var/tmp/portage/app-text/fbreader-0.99.1/build-info/fbreader-0.99.1.ebuild
 /etc/portage/package.env
 /etc/portage/package.license
-/home/tellone/.vim/.atprc.vim
 /home/tellone/.vim/bundle/nerdtree/doc/NERD_tree.txt
 /usr/share/vim/vim73/doc/usr_03.txt
 /home/tellone/.vim/bundle/ctrlp/doc/ctrlp.txt

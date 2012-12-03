@@ -21,12 +21,9 @@ call pathogen#helptags()
 """""""""""""""""""""""""""""""
 "{{{
 
-syntax enable
 " Sets how many lines of history VIM has to remember
 set history=700
 
-" Enable filetype plugin
-filetype plugin indent on
 
 "to avoid confusion tell vim which shell you use
 set shell=/bin/zsh
@@ -42,43 +39,6 @@ let mapleader = ","
 let g:mapleader = ","
 
 "Like mapleader but should be used for filetype spefic plugins
-let maplocalleader = ";"
-let g:maplocalleader = ";"
-
-" Fast saving
-nmap <leader>w :w!<cr>
-
-" Fast editing of the .vimrc
-nmap <leader>ee :e! ~/.vim/.vimrc<cr>
-
-" When vimrc is edited, reload it
-augroup vimrcs
-  au!
-  au bufwritepost /home/tellone/.vim/.vimrc 
-        \ source /home/tellone/.vim/.vimrc |
-        \ if exists('g:Powerline_loaded') |
-          \ silent! call Pl#Load() |
-        \ endif 
-augroup END
-"get the viminfo-file out of the way
-
-"Backup and swapfiles
-set nobackup
-set nowb
-set noswapfile
-
-set undodir=/home/tellone/.vim/undodir
-set undofile
-set hid "Change buffer - without saving
-
-"no backup on these filenames
-set backupskip+=*.tmp,crontab.*
-
-"Sets hub for external eval
-if has("balloon_eval") && has("unix")
-  set ballooneval
-endif
-
 set magic "Set magic on, for regular expressions
 set complete-=i     " Searching includes can be slow
 set display=lastline
@@ -89,19 +49,6 @@ set display=lastline
 " => VIM user interface
 """""""""""""""""""""""""""""""
 "{{{
-" Set 7 lines to the curors - when moving vertical..
-set so=7
-set number
-
-set cmdheight=1 "The commandbar height
-set laststatus=2 "comandbar visable at start
-
-"=> settings for linebreak and linewrapping
-set foldmethod=marker
-set lbr
-set tw=500
-set wrap "Wrap lines
-set whichwrap+=<,>,h,l
 
 "Set linebreak visable with +++
 if exists("&breakindent")
@@ -147,20 +94,6 @@ set nospell
 " => Functions
 """""""""""""""""""""""""""""""
 "{{{
-"Set font when startimg gvim
-function! s:initialize_font()
-    if exists("&guifont")
-        if has("mac")
-            set guifont=Monaco:h12
-        elseif has("unix")
-            if &guifont == ""
-                set guifont=bitstream\ vera\ sans\ mono\ 11
-            endif
-        elseif has("win32")
-            set guifont=Consolas:h11,Courier\ New:h10
-        endif
-    endif
-endfunction
 
 "Opens the url under the cursor
 function! OpenURL(url)
@@ -187,71 +120,12 @@ function! FoldChange()
   echo &foldmethod
 endfunction
 
-"Delete trailing white space, useful for Python ;)
-func! DeleteTrailingWS()
-  exe "normal mz"
-  %s/\s\+$//ge
-  exe "normal `z"
-endfunc
-
-function! JavaScriptFold()
-    setl foldmethod=syntax
-    setl foldlevelstart=1
-    syn region foldBraces start=/{/ end=/}/ transparent fold keepend extend
-
-    function! FoldText()
-      return substitute(getline(v:foldstart), '{.*', '{...}', '')
-    endfunction
-
-    setl foldtext=FoldText()    
-endfunction
-
-"smarter way to close current buffer
-function! <SID>BufcloseCloseIt()
-    let l:currentBufNum = bufnr("%")
-    let l:alternateBufNum = bufnr("#")
-
-    if buflisted(l:alternateBufNum)
-        buffer #
-    else
-        bnext
-    endif
-
-    if bufnr("%") == l:currentBufNum
-        new
-    endif
-
-    if buflisted(l:currentBufNum)
-        execute("bdelete! ".l:currentBufNum)
-    endif
-endfunction
 "}}}
 
 """""""""""""""""""""""""""""""
 " => Colors, Fonts and Display
 """""""""""""""""""""""""""""""
 "{{{
-augroup Guiset
-  au!
-  au GUIEnter *  call s:initialize_font()
-augroup END
-
-command! -bar -nargs=0 Bigger :let &guifont = substitute(&guifont,'\d\+$','\=submatch(0)+1','')
-command! -bar -nargs=0 Smaller :let &guifont = substitute(&guifont,'\d\+$','\=submatch(0)-1','')
-
-if has("gui_running")
-  set guioptions-=T
-  set guioptions+=m "enables menubar
-  set t_Co=256
-  set background=dark
-  colorscheme mycasts
-  
-  set encoding=utf8
-  map <M-n> :Bigger<cr>
-  map <M-m> :Smaller<cr>
-elseif $DISPLAY == '' || !has("gui")
-  set mouse=
-endif
 
 if $TERM =~ '^screen'
   if exists("+ttymouse") && &ttymouse == ''
@@ -267,7 +141,6 @@ if $TERM == 'xterm-color' && &t_Co == 8
 else
   set t_Co=256
   colorscheme mycasts
-  set encoding=utf8
 endif
 
 try
@@ -276,42 +149,8 @@ catch
 endtry
 
 
-set ffs=unix,dos
 
-" standard options for different colors
-let g:lucius_style="light"
-
-"}}}
-
-"""""""""""""""""""""""""""""""
-" => Command mode related
-"""""""""""""""""""""""""""""""
-"{{{
-" Smart mappings on the command line
-cno $h e ~/
-cno $d e ~/Desktop/
-cno $j e /
-
-" Bash like keys for the command line
-cnoremap <C-A>      <Home>
-cnoremap <C-E>      <End>
-cnoremap <C-K>      <C-U>
-
-cnoremap <C-P> <Up>
-cnoremap <C-N> <Down>
-
-"Fix anoying save and quit misses
-cmap Wq wq
-cmap WQ wq
-
-" Useful on some European keyboards
-nmap ½ $
-imap ½ $
-vmap ½ $
-cmap ½ $
-
-"}}}
-
+" standard 
 """"""""""""""""""""""""""""""""
 " => Moving and swiching 
 """"""""""""""""""""""""""""""""
@@ -328,22 +167,6 @@ nmap <C-k> <C-W>k
 nmap <C-h> <C-W>h
 nmap <C-l> <C-W>l
 
-" Close the current buffer
-nmap <leader>bd :Bclose<cr>
-
-" Close all the buffers
-nmap <leader>ba :1,300 bd!<cr>
-
-" Use the arrows to something usefull
-nmap <up> :bn<cr>
-nmap <down> :bp<cr>
-
-" Tab configuration
-nmap <right> :tabnext<cr>
-nmap <left> :tabprev<cr>
-nmap <leader><up> :tabnew<cr>
-nmap <leader><down> :tabclose<cr>
-
 " make space open fods
 nmap <space> za
 
@@ -352,17 +175,7 @@ nmap <leader>zz :call FoldChange()<cr>
 
 " When pressing <leader>cd switch to the directory of the open buffer
 nmap <leader>cd :cd %:p:h<cr>
-vmap <leader>y "+y
 
-command! Bclose call <SID>BufcloseCloseIt()
-
-nmap <leader>pp :setlocal paste!<cr>
-" Specify the behavior when switching between buffers 
-try
-  set switchbuf=usetab
-  set stal=2
-catch
-endtry
 "}}}
 
 """"""""""""""""""""""""""""""""
@@ -373,65 +186,12 @@ endtry
 " => Ack
 let g:ackprg="ack -H --nocolor --nogroup --column"
 
-" => Align
-let g:DrChipTopLvlMenu= "Plugin." 
 
-" => Cope
-" Do :help cope if you are unsure what cope is. It's super useful!
-nmap <leader>cc :botright cope<cr>
-map <leader>cn :cn<cr>
-map <leader>cp :cp<cr>
-nmap <leader>cl :ccl<cr>
-
-"=> ctrl-p
-let g:ctrlp_map = '<leader>fd'
-nmap <leader>ff :CtrlPMRUFiles<cr>
-
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$',
-  \ 'file': '\.exe$\|\.so$\|\.dll$|\.bib$|\.aux$',
-  \ 'link': 'some_bad_symbolic_links',
-  \ }
-let g:ctrlp_cache_dir =  '/home/tellone/.vim/cache/ctrlp'
-let g:ctrlp_mruf_max = 250
-
-"=> Gundo
-nnoremap <leader>uu :GundoToggle<CR>
 
 " => NerdTree
 nmap <leader>n :NERDTree<cr>
 let NERDTreeShowHidden=1
 let NERDTreeBookmarksFile =  '/home/tellone/.vim/misc/.NERDTreeBookmarks'
-
-" => Powerbar
-"let g:Powerline_symbols = 'fancy'
-
-" => Syntastic
-let g:syntastic_mode_map = { 'mode': 'active',
-      \ 'active_filetypes': ['matlab', 'ruby', 'html', 'python', 'javascript'],
-      \ 'passive_filetypes': ['tex', 'latex', 'php'] }
-
-" => Tagbar
-let g:tagbar_autofocus=1
-nmap <leader>l :TagbarToggle<cr>
-
-" => Tskeleton
-let tskelUserName='Filip Pettersson'
-let tskelUserEmail='filip.diloom@gmail.com'
-let tskelLicence='Free Software'
-nmap <leader>s :TSkeletonSetup 
-
-" => Twitvim
-" let twitvim_token_file = '/home/tellone/.vim/misc/cens/twitvim.token'
-" let twitvim_browser_cmd = 'firefox'" 
-" source /home/tellone/.vim/misc/cens/twitinfo.vim
-
-" => vimGrep
-let Grep_Skip_Dirs = 'RCS CVS SCCS .svn generated'
-set grepprg=/bin/grep\ -nH
-
-" => YankRing
-let g:yankring_history_dir = '/home/tellone/.vim/misc/YankRing'
 
 "}}}
 
