@@ -389,7 +389,7 @@ nmap <leader>ff :CtrlPMRUFiles<cr>
 
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$',
-  \ 'file': '\.exe$\|\.so$\|\.dll$|\.bib$|\.aux$',
+  \ 'file': '\.exe$\|\.so$\|\.dll$|\.bib$|\.aux$|\._aux$|\.toc$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
 let g:ctrlp_cache_dir =  '/home/tellone/.vim/cache/ctrlp'
@@ -428,7 +428,7 @@ nmap <leader>s :TSkeletonSetup
 
 " => vimGrep
 let Grep_Skip_Dirs = 'RCS CVS SCCS .svn generated'
-set grepprg=/bin/grep\ -nH
+set grepprg=ack\ --nogroup\ $*
 
 " => YankRing
 let g:yankring_history_dir = '/home/tellone/.vim/misc/YankRing'
@@ -471,9 +471,9 @@ augroup FTMisc " {{{2
   autocmd CursorHold,BufWritePost,BufReadPost,BufLeave *
     \ if isdirectory(expand("<amatch>:h")) | let &swapfile = &modified | endif
   
-  autocmd BufEnter *NERD_tree*,__Tagbar__, __Gundo__
-        \ nnoremap <silent> <buffer> <up> k |
-        \ nnoremap <silent> <buffer> <down> j
+  " autocmd BufEnter *NERD_tree*,__Tagbar__, __Gundo__
+        " \ nnoremap <silent> <buffer> <up> k |
+        " \ nnoremap <silent> <buffer> <down> j
 
  
   

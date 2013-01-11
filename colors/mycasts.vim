@@ -75,7 +75,9 @@ highlight Special                   guifg=#DA4939 ctermfg=167
 highlight Folded       guifg=#111111        guibg=#808080   ctermfg=0     ctermbg=246       gui=none      cterm=none
 highlight FoldColumn   guifg=#111111       guibg=#808080   ctermfg=0     ctermbg=246       gui=none      cterm=none
 
-highlight cOperator           	    guifg=#f09060 guibg=NONE gui=NONE
+highlight cordOperator           	    guifg=#f09060 guibg=NONE gui=NONE
+
+highlight cOperator                  guifg=#A33DE2 ctermfg=93
 highlight pythonBuiltin             guifg=#6D9CBE ctermfg=73 gui=NONE cterm=NONE
 highlight rubyBlockParameter        guifg=#FFFFFF ctermfg=15
 highlight rubyClass                 guifg=#FFFFFF ctermfg=15
