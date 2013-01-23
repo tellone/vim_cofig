@@ -1,3 +1,4 @@
+/home/tellone/.vim/.git/COMMIT_EDITMSG
 /etc/make.conf
 /home/tellone/current_config/zsh_rcs/aliases
 /home/tellone/keep/ebooks/bstrlib.txt
