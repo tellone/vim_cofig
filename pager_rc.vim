@@ -50,13 +50,6 @@ set display=lastline
 """""""""""""""""""""""""""""""
 "{{{
 
-"Set linebreak visable with +++
-if exists("&breakindent")
-  set breakindent showbreak=+++
-elseif has("gui_running")
-  set showbreak=\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +++
-endif
-
 "=> search settings and macros
 set ignorecase "Ignore case when searching
 set smartcase  "Override Ingnore case in obvious situations
@@ -65,7 +58,6 @@ set hlsearch "Highlight search things
 set incsearch "Make search act like search in modern browsers
 
 set showmatch "Show matching bracets when text indicator is over them
-set lazyredraw "Don't redraw while executing macros 
 
 set mat=3 "How many tenths of a second to blink
 
@@ -81,12 +73,6 @@ set wildignore+=*~,*.aux,tags "don't show swap, aux or tags in wildmenu
 
 set suffixes+=.dvi " Lower priority in wildcards
 set tags+=../tags,../../tags,../../../tags,../../../../tags
-
-
-"spelling
-set dictionary+=/usr/share/dict/words
-set spelllang=en,sv
-set nospell
 
 "}}}
 
@@ -108,17 +94,6 @@ function! OpenURL(url)
 endfunction
 command! -nargs=1 OpenURL :call OpenURL(<q-args>)
 
-"Toogles fold between marker, syntax and expr
-function! FoldChange()
-  if &foldmethod=="marker"
-    setl foldmethod=syntax
-  elseif &foldmethod=="syntax"
-    setl foldmethod=expr
-  else
-    setl foldmethod=marker
-  endif
-  echo &foldmethod
-endfunction
 
 "}}}
 
@@ -160,18 +135,6 @@ nmap <silent> <leader><cr> :noh<cr>
 
 "big Q formats text and no Ex-mode
 nmap Q ==
-
-" Smart way to move btw. windows
-nmap <C-j> <C-W>j
-nmap <C-k> <C-W>k
-nmap <C-h> <C-W>h
-nmap <C-l> <C-W>l
-
-" make space open fods
-nmap <space> za
-
-"=> Foldchange
-nmap <leader>zz :call FoldChange()<cr>
 
 " When pressing <leader>cd switch to the directory of the open buffer
 nmap <leader>cd :cd %:p:h<cr>

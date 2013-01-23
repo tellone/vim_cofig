@@ -276,7 +276,7 @@ catch
 endtry
 
 
-set ffs=unix,dos
+set ffs=unix
 
 " standard options for different colors
 let g:lucius_style="light"
@@ -405,6 +405,7 @@ let NERDTreeBookmarksFile =  '/home/tellone/.vim/misc/.NERDTreeBookmarks'
 
 " => Powerbar
 "let g:Powerline_symbols = 'fancy'
+python from powerline.bindings.vim import source_plugin; source_plugin()
 
 " => Syntastic
 let g:syntastic_mode_map = { 'mode': 'active',

@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/tellone/.vim/bundle/tagbar'
-let g:netrw_dirhist_2='/home/tellone/current_config/zsh_rcs'
-let g:netrw_dirhist_3='/usr/share/octave/3.4.3/m/path'
-let g:netrw_dirhist_4='/home/tellone/current_config/zsh_rcs'
-let g:netrw_dirhist_5='/home/tellone'
-let g:netrw_dirhist_6='/home/tellone/current_config/zsh_rcs'
-let g:netrw_dirhist_7='/home/tellone/.ipython'
-let g:netrw_dirhist_8='/etc/layman'
-let g:netrw_dirhist_9='/home/tellone/myProjects/cortana-scripts'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/tellone/keep/art/justMe/training'

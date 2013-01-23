@@ -1,9 +1,51 @@
 /home/tellone/.vim/.git/COMMIT_EDITMSG
+/home/tellone/.vim/pager_rc.vim
+/home/tellone/myProjects/utils/need_install.c
+/etc/xdg/user-dirs.defaults
+/etc/xdg/user-dirs.conf
+/etc/fonts/fonts.dtd
+/etc/fonts/fonts.conf
+/home/tellone/.vim/.vimrc
+/etc/portage/package.accept_keywords
+/home/tellone/.pip/pip.log
+/etc/portage/package.use
 /etc/make.conf
+/home/tellone/keep/ebooks/Fiction/Books/breakfast_at_tiffanies.txt
+/home/tellone/need_intall.txt
+/home/tellone/FOR.txt
+/home/tellone/keep/art/justMe/Reading/SpeedRead_steps.txt
+/home/tellone/keep/art/justMe/Reading/Non_fiction/Books/Grossman_elktmat.txt
+/home/tellone/keep/art/justMe/Reading/SpeedRead_steps-txt
+/home/tellone/keep/art/justMe/training/topics/Richard_Stallman.txt
+/home/tellone/keep/art/justMe/training/topics/Stallman /Richard_Stallman.txt
+/home/tellone/.vim/misc/.NERDTreeBookmarks
+/home/tellone/keep/art/Lyric/Lewis Carroll - Various Poems.txt
+/home/tellone/keep/art/justMe/poems/lyric/låttexter.tex
+/home/tellone/learnC/way to/Adv_str.c
+/home/tellone/keep/art/justMe/training/writing_steps.txt
+/home/tellone/keep/art/justMe/training/topics/outlines.txt
+/home/tellone/keep/art/justMe/Richard_Stallman.txt
+/home/tellone/.vim/bundle/vim-eunuch/doc/eunuch.txt
+/usr/share/vim/vimfiles/doc/Align.txt
+/home/tellone/keep/art/justMe/poems/lyric/Poems.tex
+/home/tellone/keep/art/justMe/poems/om månen log/if_the_moon_smiled.tex
+/home/tellone/.vim/.atprc.vim
+/usr/share/vim/vim73/doc/help.txt
+/etc/wpa_supplicant/wpa_supplicant.conf
+/home/tellone/keep/art/justMe/cv/Cv_svenska-2013.tex
+/usr/share/vim/vimfiles/doc/automatic-tex-plugin.txt
+/home/tellone/.vim/bundle/vimoutliner/doc/vo_readme.txt
+/usr/share/vim/vimfiles/doc/latexhelp.txt
+/home/tellone/.vim/bundle/dwm/doc/dwm.txt
+/home/tellone/keep/art/justMe/reviews/subergatory.md
+/home/tellone/keep/art/justMe/poems/spoof.tex
+/home/tellone/keep/art/justMe/bok_outlines/svanberg-AMspec.txt
+/home/tellone/.vim/colors/tabula.vim
+/home/tellone/.vim/colors/faded-white.vim
+/home/tellone/keep/art/justMe/bok_outlines/Ottosen-fem.txt
+/home/tellone/current_config/zsh_rcs/tellone.zsh-theme
 /home/tellone/current_config/zsh_rcs/aliases
 /home/tellone/keep/ebooks/bstrlib.txt
-/home/tellone/keep/art/justMe/bok_outlines/svanberg-AMspec.txt
-/home/tellone/.vim/.vimrc
 /home/tellone/myProjects/cortana-scripts/irc-client/irc-client.cna
 /home/tellone/myProjects/cortana-scripts/autohack/autohack.cna
 /home/tellone/myProjects/tpope/.gnupg/gpg.conf
@@ -11,24 +53,18 @@
 /home/tellone/myProjects/tpope/.login
 /home/tellone/myProjects/tpope/.dir_colors
 /home/tellone/myProjects/tpope/.pryrc
-/etc/wpa_supplicant/wpa_supplicant.conf
 /etc/wpa_supplicant/wpa_cli.sh
 /home/tellone/zsh.vim
 /etc/conf.d/net
-/usr/share/vim/vim73/doc/help.txt
-/home/tellone/keep/art/justMe/poems/spoof.tex
-/home/tellone/keep/art/justMe/poems/lyric/låttexter.tex
 /home/tellone/keep/art/justMe/letter.txt
 /home/tellone/.vim/bundle/vim-surround/doc/surround.txt
 /home/tellone/bin/pyscripts/stripdig.py
 /usr/share/vim/vim73/doc/os_os2.txt
 /usr/lib/python2.7/os.py
 /usr/lib/python2.7/ctypes/util.py
-/home/tellone/learnC/way to/Adv_str.c
 /home/tellone/keep/ebooks/programing/hacking/network/Hacking - Firewalls And Networks How To Hack Into Remote Computers/Hacking - Firewalls And Networks How To Hack Into Remote Computers.pdf
 /home/tellone/keep/art/justMe/poems/lyric/kaffe.tex
 /home/tellone/.vim/bundle/ctrlp/doc/ctrlp.txt
-/home/tellone/keep/art/justMe/poems/lyric/Poems.tex
 /home/tellone/.vim/skeletons/bits/tex/verse
 /usr/share/vim/vim73/doc/spell.txt
 /home/tellone/myProjects/python_stuff/constants.py
