@@ -2,7 +2,7 @@
 "
 " Name:         mycasts.vim
 " Maintainer:   Filip Pettersson <filip.diloom@gmail.com>
-" Last Change:  01 Mar 2008
+" Last Change:  09 NOV 2012
 " License:      WTFPL <http://sam.zoy.org/wtfpl/>
 " Version:      2.1
 "
@@ -77,7 +77,7 @@ highlight FoldColumn   guifg=#111111       guibg=#808080   ctermfg=0     ctermbg
 
 highlight cordOperator           	    guifg=#f09060 guibg=NONE gui=NONE
 
-highlight cOperator                  guifg=#A33DE2 ctermfg=93
+highlight cOperator                 guifg=#A33DE2 ctermfg=93
 highlight pythonBuiltin             guifg=#6D9CBE ctermfg=73 gui=NONE cterm=NONE
 highlight rubyBlockParameter        guifg=#FFFFFF ctermfg=15
 highlight rubyClass                 guifg=#FFFFFF ctermfg=15

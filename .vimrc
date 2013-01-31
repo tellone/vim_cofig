@@ -6,7 +6,7 @@ set nocp
 
 "To diable pathogen bundels put the name of
 "the basefolder down below
-" let g:pathogen_disabled=['basefolder']
+let g:pathogen_disabled=['powerline']
 
 "Load pathogen itself
 runtime bundle/vim-pathogen/autoload/pathogen.vim
@@ -67,7 +67,7 @@ set nobackup
 set nowb
 set noswapfile
 
-set undodir=/home/tellone/.vim/undodir
+set undodir=/home/tellone/.cache/vim/undodir
 set undofile
 set hid "Change buffer - without saving
 
@@ -323,10 +323,10 @@ nmap <silent> <leader><cr> :noh<cr>
 nmap Q ==
 
 " Smart way to move btw. windows
-nmap <C-j> <C-W>j
-nmap <C-k> <C-W>k
-nmap <C-h> <C-W>h
-nmap <C-l> <C-W>l
+" nmap <C-j> <C-W>j
+" nmap <C-k> <C-W>k
+" nmap <C-h> <C-W>h
+" nmap <C-l> <C-W>l
 
 " Close the current buffer
 nmap <leader>bd :Bclose<cr>
@@ -352,7 +352,8 @@ nmap <leader>zz :call FoldChange()<cr>
 
 " When pressing <leader>cd switch to the directory of the open buffer
 nmap <leader>cd :cd %:p:h<cr>
-vmap <leader>y "+y
+"yanks to the copy paste regitry in visual mode
+vmap <leader>y "+y  
 
 command! Bclose call <SID>BufcloseCloseIt()
 
@@ -383,6 +384,11 @@ map <leader>cn :cn<cr>
 map <leader>cp :cp<cr>
 nmap <leader>cl :ccl<cr>
 
+"=> csyntax
+if exists("*CSyntaxAfter")
+  call CSyntaxAfter()
+endif
+
 "=> ctrl-p
 let g:ctrlp_map = '<leader>fd'
 nmap <leader>ff :CtrlPMRUFiles<cr>
@@ -404,7 +410,7 @@ let NERDTreeShowHidden=1
 let NERDTreeBookmarksFile =  '/home/tellone/.vim/misc/.NERDTreeBookmarks'
 
 " => Powerbar
-"let g:Powerline_symbols = 'fancy'
+" Activate the new powerline in python
 python from powerline.bindings.vim import source_plugin; source_plugin()
 
 " => Syntastic
@@ -531,9 +537,9 @@ augroup FTOptions " {{{2
   autocmd FileType help nnoremap <silent><buffer> q :q<CR>
   autocmd FileType html setlocal iskeyword+=~
   autocmd FileType pdf  setlocal foldmethod=syntax foldlevel=1
-  autocmd FileType text,txt setlocal tw=78 linebreak nolist spell
+  autocmd FileType text,txt setlocal tw=78 showbreak="" linebreak nolist spell
   autocmd FileType help,text,txt colorscheme lucius
-  autocmd FileType markdown setlocal spell linebreak nolist
+  autocmd FileType markdown setlocal spell linebreak nolist showbreak=\ +
   autocmd FileType markdown colorscheme jdlight
   autocmd FileType vbnet    runtime! indent/vb.vim
   autocmd FileType vim  setlocal ai et sta sw=2 sts=2 keywordprg=:help

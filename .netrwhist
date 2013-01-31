@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/tellone/keep/art/justMe/training'
+let g:netrw_dirhist_2='/usr/lib/python2.7/site-packages/powerline'
+let g:netrw_dirhist_3='/usr/share/openrc/runlevels/default'
+let g:netrw_dirhist_4='/usr/share/openrc/runlevels/sysinit'
+let g:netrw_dirhist_5='/home/tellone/current_config/zsh_rcs'
+let g:netrw_dirhist_6='/etc/portage'
+let g:netrw_dirhist_7='/home/tellone/.config/Terminal'
+let g:netrw_dirhist_8='/home/tellone/.config/xfce4'
+let g:netrw_dirhist_9='/home/tellone/myProjects/eix/src'

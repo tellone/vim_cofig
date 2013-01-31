@@ -1,30 +1,11 @@
-"""""""""""""""""""""""""""""""
-" => Pathogen
-"""""""""""""""""""""""""""""""
-"{{{
-set nocp
 
-"To diable pathogen bundels put the name of
-"the basefolder down below
-" let g:pathogen_disabled=['basefolder']
-
-"Load pathogen itself
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-
-"run plugins in bundle folder
-call pathogen#infect()
-call pathogen#helptags()
-"}}}
 
 """""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""
 "{{{
 
-" Sets how many lines of history VIM has to remember
-set history=700
-
-
+set nocp
 "to avoid confusion tell vim which shell you use
 set shell=/bin/zsh
 " Set to auto read when a file is changed from the outside
@@ -34,7 +15,6 @@ set autoread
 set winaltkeys=no
 set backspace=eol,start,indent
 
-" With a map leader is the shortcut for global plugins
 let mapleader = ","
 let g:mapleader = ","
 
@@ -141,22 +121,7 @@ nmap <leader>cd :cd %:p:h<cr>
 
 "}}}
 
-""""""""""""""""""""""""""""""""
-" => Plugin Settings
-""""""""""""""""""""""""""""""""
-"{{{
-
-" => Ack
-let g:ackprg="ack -H --nocolor --nogroup --column"
-
-
-
-" => NerdTree
-nmap <leader>n :NERDTree<cr>
-let NERDTreeShowHidden=1
-let NERDTreeBookmarksFile =  '/home/tellone/.vim/misc/.NERDTreeBookmarks'
-
-"}}}
+python from powerline.bindings.vim import source_plugin; source_plugin()
 
 """"""""""""""""""""""""""""""""
 " => Filtype settings
@@ -331,14 +296,10 @@ augroup END
 nnoremap <Leader>mm mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 
 "Quickly open a buffer for scripbble
-nmap <leader>qq :e ~/buffer<cr>
 nnoremap <leader>bb :OpenURL <cfile><CR>
 
 nnoremap <leader>" viw<esc>a;<esc>lel
 
-" => General Abbrevs "{{{2
-iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
-iab @@f filip.diloom@gmail.com
 "}}}2
 
 "}}} 
