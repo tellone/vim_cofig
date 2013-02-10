@@ -1,5 +1,100 @@
+/home/tellone/current_config/zsh_rcs/aliases
+/home/tellone/myProjects/java/edaa01-workspace/edaa01-workspace/lab1/src/test/TestArraySet.java
+/home/tellone/.vim/bundle/dwm/doc/dwm.txt
+/home/tellone/myProjects/java/edaa01-workspace/edaa01-workspace/lab1/src/set/ArraySet.java
+/home/tellone/myProjects/java/edaa01-workspace/edaa01-workspace/lab1/src/set/ArraySet.class
+/home/tellone/myProjects/java/edaa01-workspace/edaa01-workspace/lab1/bin/test/TestArraySet.class
+/home/tellone/.vim/skeletons/bits/java/method
 /home/tellone/.vim/.vimrc
+/home/tellone/.vim/skeletons/bits/java/test
+/home/tellone/current_config/zsh_rcs/func_lib
+/etc/slim.conf
+/etc/portage/package.use
+/etc/make.conf
+/etc/X11/Sessions/Xfce4
+/etc/X11/xinit/xinitrc
+/etc/X11/chooser.sh
+/etc/X11/startDM.sh
+/etc/X11/xdm/Xaccess
+/etc/X11/xdm/xdm-config
+/usr/share/slim/themes/gentoo_10_dark/slim.theme
+/usr/share/vim/vim73/syntax/java.vim
+/home/tellone/current_config/zsh_rcs/functions/jComp.zsh
+/home/tellone/myProjects/java/edaa01-workspace/myStuff/src/main/java/com/diloom/myStuff/App.java
+/home/tellone/myProjects/java/__MACOSX/edaa01-workspace/lab1/src/set/._SimpleSet.java
+/home/tellone/myProjects/java/edaa01-workspace/lab1/src/set/ArraySet.java
+/home/tellone/myProjects/java/edaa01-workspace/lab1/src/.DS_Store
+/home/tellone/myProjects/java/edaa01-workspace/lab1/.classpath
+/home/tellone/myProjects/java/edaa01-workspace/lab1/src/set/TestArraySet.java
+/home/tellone/myProjects/java/edaa01-workspace/myStuff/pom.xml
+/etc/portage/package.accept_keywords
+/home/tellone/current_config/zsh_rcs/zsh_completion
+/home/tellone/current_config/zsh_rcs/zsh_env
+/home/tellone/.vim/skeletons/skel.java
+/home/tellone/.vim/skeletons/method
+/home/tellone/.vim/.git/index
+/home/tellone/.vim/bundle/vim-fugitive/doc/fugitive.txt
+/home/tellone/.vim/skeletons/bits/java/main
+/home/tellone/myProjects/java/edaa01-workspace/lab1/src/set/SimpleSet.java
+/home/tellone/bin/java_unit.sh
+/home/tellone/keep/art/justMe/Writing/lyric/låttexter.tex
+/home/tellone/sta.txt
+/home/tellone/FOR.txt
+/home/tellone/myProjects/java/agorat/upp_5/Main.java
+/usr/share/vim/vim73/doc/help.txt
+/home/tellone/myProjects/java/agorat/upp_5/MyBinaryTree.java
+/home/tellone/myProjects/tpope/bin/sensible-browser
+/home/tellone/myProjects/tpope/bin/x-terminal-emulator
+/home/tellone/myProjects/tpope/bin/media
+/home/tellone/myProjects/tpope/bin/tpope-config
+/etc/portage/package.license
+/usr/portage/profiles/default/linux/x86/10.0/desktop/eapi
+/usr/portage/profiles/default/linux/x86/10.0/desktop/parent
+/home/tellone/Documents/Untitled Folder/vimi.out
+/home/tellone/Documents/Untitled Folder/vimi.log
+/home/tellone/Documents/Untitled Folder/vimi.tex
+/home/tellone/Downloads/theme-93.xml
+/home/tellone/current_config/zsh_rcs/functions/extract.zsh
+/home/tellone/myProjects/tpope/.gitconfig
+/home/tellone/.viminfs.tmp
+/home/tellone/myProjects/java/junit_intro/CalculatorTest.java
+/home/tellone/myProjects/java/junit_intro/Calculator.java
+/home/tellone/myProjects/java/junit_intro/Calculator_Test.java
+/home/tellone/myProjects/java/junit_intro/Calculator_test.java
+/home/tellone/.pip/pip.log
+/home/tellone/myProjects/java/agorat/upp_5/MyBinaryNode.java
+/home/tellone/.vim/pager_rc.vim
+/usr/src/linux/.config
+/home/tellone/.xinitrc
+/home/tellone/myProjects/java/agorat/TestCase.java
+/home/tellone/myProjects/java/agorat/Person.java
+/home/tellone/myProjects/java/agorat/upp2/FifoQueue.java
+/home/tellone/.gentoo/java-env-classpath
+/usr/share/junit-4/package.env
+/usr/share/doc/junit-4.8.2-r1/examples/money/MoneyTest.java
+/usr/share/doc/junit-4.8.2-r1/examples/package-info.java
+/usr/share/doc/junit-4.8.2-r1/examples/SimpleTest.java
+/home/tellone/keep/art/justMe/Writing/lyric/Poems.tex
+/home/tellone/myProjects/java/agorat/upp2/Queue.java
+/home/tellone/myProjects/java/agorat/upp2/Queue.class
+/home/tellone/myProjects/java/agorat/upp2/fifoQueue.java
+/home/tellone/.vim/colors/mycasts.vim
+/usr/share/vim/vim73/syntax/c.vim
+/home/tellone/learnC/way to/Adv_str.c
+/home/tellone/current_config/zsh_rcs/zsh_config
+/home/tellone/myProjects/src/powerline/powerline/config_files/colorschemes/shell/default.json
+/home/tellone/myProjects/src/powerline/docs/source/fontpatching.rst
+/home/tellone/myProjects/src/powerline/powerline/bindings/zsh/powerline.zsh
+/home/tellone/myProjects/java/agorat/SimpleArrayList.java
+/home/tellone/myProjects/java/agorat/simple_Array.java
 /home/tellone/keep/art/justMe/cv-jobb/Cvs/Cv_dev.tex
+/usr/local/portage/powerline-9999.ebuild
+/var/lib/layman/make.conf
+/home/tellone/.vim/bundle/zen-coding/doc/zencoding.txt
+/etc/layman/layman.cfg
+/home/tellone/.vim/bundle/vim-pathogen/README.markdown
+/home/tellone/.vim/bundle/vim-pathogen/autoload/pathogen.vim
+/home/tellone/.vim/.git/COMMIT_EDITMSG
 /home/tellone/keep/art/justMe/cv-jobb/Cvs/Cv_dev.log
 /home/tellone/keep/art/justMe/cv-jobb/Cvs/Cv_dev._log
 /home/tellone/keep/art/justMe/cv-jobb/Cvs/Cv_dev.out
@@ -8,8 +103,6 @@
 /home/tellone/keep/art/justMe/cv-jobb/Cvs/CV.tex
 /usr/share/vim/vimfiles/ftplugin/ATP_files/packages/cite.vim
 /usr/share/vim/vimfiles/plugin/tex_atp.vim
-/etc/make.conf
-/home/tellone/myProjects/java/junit_intro/Calculator_test.java
 /home/tellone/keep/art/justMe/cv-jobb/Cvs/Cv_svenska-2013.tex
 /usr/share/vim/vimfiles/doc/latexhelp.txt
 /home/tellone/keep/art/justMe/Reading/SpeedRead_steps.txt
@@ -17,13 +110,11 @@
 /home/tellone/.themes/Legacy/gtk-2.0/gtkrc
 /home/tellone/.themes/Legacy/index.theme
 /home/tellone/need_intall.txt
-/home/tellone/myProjects/java/junit_intro/Calculator.java
 /home/tellone/.cache/.fr-IyakRO/README.txt
 /home/tellone/.cache/.fr-J1OpfU/README.txt
 /home/tellone/.tmux.conf
 /home/tellone/myProjects/tpope/.tmux.conf
 /home/tellone/.config/Terminal/terminalrc
-/home/tellone/.vim/bundle/dwm/doc/dwm.txt
 /usr/lib/python2.7/site-packages/powerline/bindings/tmux/powerline.conf
 /usr/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 /var/cache/eix/portage.eix
@@ -32,19 +123,14 @@
 /home/tellone/.vim/bundle/dwm/plugin/dwm.vim
 /home/tellone/.vim/bundle/vimoutliner/doc/vo_readme.txt
 /home/tellone/.vim/bundle/powerline/doc/Powerline.txt
-/etc/portage/package.accept_keywords
 /home/tellone/keep/art/justMe/cv-jobb/Brev/letterpdf/personligt_brev.tex
 /home/tellone/keep/art/justMe/cv-jobb/Brev/Personligt brev (yvonne's conflicted copy 2012-05-15).doc
 /home/tellone/keep/art/justMe/cv-jobb/Brev/letter.txt
 /home/tellone/keep/art/justMe/cv-jobb/Cvs/Cv svenska.aux
 /home/tellone/keep/art/justMe/cv-jobb/Cvs/Cv svenska.tex.project.vim
-/home/tellone/current_config/zsh_rcs/zsh_env
 /usr/share/vim/vim73/vimrc_example.vim
 /usr/share/vim/vim73/compiler/gcc.vim
-/home/tellone/.vim/pager_rc.vim
-/home/tellone/current_config/zsh_rcs/zsh_completion
 /home/tellone/current_config/zsh_rcs/tellone.zsh-theme
-/home/tellone/current_config/zsh_rcs/aliases
 /home/tellone/keep/art/justMe/Writting/training/topics/Richard_Stallman.txt
 /home/tellone/keep/art/justMe/Writting/training/reviews/subergatory.md
 /home/tellone/keep/art/justMe/letter.txt
@@ -57,25 +143,19 @@
 /home/tellone/.mozilla/firefox/wdesyogo.default/lightweighttheme-header
 /home/tellone/.mozilla/firefox/wdesyogo.default/lwtheme/lightweighttheme-header-1024x768
 /home/tellone/.mozilla/firefox/profiles.ini
-/home/tellone/.vim/colors/mycasts.vim
 /home/tellone/.cache/.fr-cnhll6/plugin/cSyntaxAfter.vim
 /home/tellone/.vim/c-support/templates/Templates
 /usr/share/vim/vimfiles/syntax/gail.vim
-/home/tellone/.pip/pip.log
 /home/tellone/keep/art/justMe/Writting/prosa/ursäkternas mästare/ch2.tex
 /home/tellone/keep/art/justMe/Writting/prosa/ursäkternas mästare/Ursäkternas mästare.tex.project.vim
 /home/tellone/keep/art/justMe/Writting/prosa/om månen log/if_the_moon_smiled.tex.project.vim
 /home/tellone/keep/art/justMe/Writting/höst.txt
 /home/tellone/keep/art/justMe/Writting/höst.tex
-/usr/share/vim/vim73/syntax/c.vim
-/home/tellone/.vim/.git/COMMIT_EDITMSG
 /etc/xdg/user-dirs.defaults
 /etc/xdg/user-dirs.conf
 /etc/fonts/fonts.dtd
 /etc/fonts/fonts.conf
-/etc/portage/package.use
 /home/tellone/keep/ebooks/Fiction/Books/breakfast_at_tiffanies.txt
-/home/tellone/FOR.txt
 /home/tellone/keep/art/justMe/Reading/Non_fiction/Books/Grossman_elktmat.txt
 /home/tellone/keep/art/justMe/Reading/SpeedRead_steps-txt
 /home/tellone/keep/art/justMe/training/topics/Richard_Stallman.txt
@@ -83,7 +163,6 @@
 /home/tellone/.vim/misc/.NERDTreeBookmarks
 /home/tellone/keep/art/Lyric/Lewis Carroll - Various Poems.txt
 /home/tellone/keep/art/justMe/poems/lyric/låttexter.tex
-/home/tellone/learnC/way to/Adv_str.c
 /home/tellone/keep/art/justMe/training/writing_steps.txt
 /home/tellone/keep/art/justMe/training/topics/outlines.txt
 /home/tellone/keep/art/justMe/Richard_Stallman.txt
@@ -92,7 +171,6 @@
 /home/tellone/keep/art/justMe/poems/lyric/Poems.tex
 /home/tellone/keep/art/justMe/poems/om månen log/if_the_moon_smiled.tex
 /home/tellone/.vim/.atprc.vim
-/usr/share/vim/vim73/doc/help.txt
 /etc/wpa_supplicant/wpa_supplicant.conf
 /home/tellone/keep/art/justMe/cv/Cv_svenska-2013.tex
 /usr/share/vim/vimfiles/doc/automatic-tex-plugin.txt

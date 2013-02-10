@@ -6,7 +6,7 @@ set nocp
 
 "To diable pathogen bundels put the name of
 "the basefolder down below
-let g:pathogen_disabled=['powerline']
+let g:pathogen_disabled=['vimoutliner']
 
 "Load pathogen itself
 runtime bundle/vim-pathogen/autoload/pathogen.vim
@@ -322,7 +322,7 @@ nmap <silent> <leader><cr> :noh<cr>
 "big Q formats text and no Ex-mode
 nmap Q ==
 
-" Smart way to move btw. windows
+" Smart way to move btw. windows, but dwm is better
 " nmap <C-j> <C-W>j
 " nmap <C-k> <C-W>k
 " nmap <C-h> <C-W>h
@@ -411,7 +411,7 @@ let NERDTreeBookmarksFile =  '/home/tellone/.vim/misc/.NERDTreeBookmarks'
 
 " => Powerbar
 " Activate the new powerline in python
-python from powerline.bindings.vim import source_plugin; source_plugin()
+" python from powerline.bindings.vim import source_plugin; source_plugin()
 
 " => Syntastic
 let g:syntastic_mode_map = { 'mode': 'active',

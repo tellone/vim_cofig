@@ -1,3 +1,5 @@
 
-menu 90.20 TSke&l.main :call tskeleton#ExpandBitUnderCursor("n", 'main')<cr>
-imenu 90.20 TSke&l.main <c-\><c-o>:call tskeleton#ExpandBitUnderCursor("i", 'main')<cr>
+menu 90.20 TSke&l.method :call tskeleton#ExpandBitUnderCursor("n", 'method')<cr>
+imenu 90.20 TSke&l.method <c-\><c-o>:call tskeleton#ExpandBitUnderCursor("i", 'method')<cr>
+menu 90.20 TSke&l.test :call tskeleton#ExpandBitUnderCursor("n", 'test')<cr>
+imenu 90.20 TSke&l.test <c-\><c-o>:call tskeleton#ExpandBitUnderCursor("i", 'test')<cr>
