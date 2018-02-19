@@ -120,7 +120,7 @@ function! s:initialize_font()
             set guifont=Monaco:h12
         elseif has("unix")
             if &guifont == ""
-                set guifont=bitstream\ vera\ sans\ mono\ 11
+                set guifont=bitstream\ vera\ sans\ mono\ 14
             endif
         elseif has("win32")
             set guifont=Consolas:h11,Courier\ New:h10

@@ -440,6 +440,8 @@ set grepprg=ack\ --nogroup\ $*
 " => YankRing
 let g:yankring_history_dir = '/home/tellone/.vim/misc/YankRing'
 
+let g:instant_markdown_autostart = 0
+
 "}}}
 
 """"""""""""""""""""""""""""""""
@@ -538,9 +540,8 @@ augroup FTOptions " {{{2
   autocmd FileType html setlocal iskeyword+=~
   autocmd FileType pdf  setlocal foldmethod=syntax foldlevel=1
   autocmd FileType text,txt setlocal tw=78 showbreak="" linebreak nolist spell
-  autocmd FileType help,text,txt colorscheme lucius
+  autocmd FileType help,text,txt, markdown colorscheme lucius
   autocmd FileType markdown setlocal spell linebreak nolist showbreak=\ +
-  autocmd FileType markdown colorscheme jdlight
   autocmd FileType vbnet    runtime! indent/vb.vim
   autocmd FileType vim  setlocal ai et sta sw=2 sts=2 keywordprg=:help
 augroup END "}}}2

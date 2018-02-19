@@ -1,4 +1,4 @@
-" Title: 	Syntax file for tex log messages
+" Tite: 	Syntax file for tex log messages
 " Author: 	Marcin Szamotulski
 " Note:		This file is a part of Automatic Tex Plugin for Vim.
 " URL:		https://launchpad.net/automatictexplugin
@@ -12,8 +12,8 @@ syntax match texlogBrackets		'(\|)\|{\|}\|\\@<!\[\|\\@<!\]\|<\|>'
 
 syntax match texlogOpenOut		'\\openout\d\+'
 
-syntax match texlogDate			'\%(\s\|<\)\zs\%(\d\d\s\w\w\w\s\d\d\d\d\s\d\d:\d\d\|\d\d\d\d\/\d\d\/\d\d\)\ze\%(\s\|>\|$\)' 	
-syntax match texlogVersion		'\%(v\|ver\)\s*\d*\.\d*\w'
+syntax match texlogDate			'\%(\s\|<\)\zs\%(\d\d\=\s\w\w\w\s\d\d\d\d\s\d\d:\d\d\|\d\d\d\d\/\d\d\/\d\d\)\ze\%(\s\|>\|$\)' 	
+syntax match texlogVersion		'\<\%(v\|ver\)\s*\d*\.\d*\w\>'
 
 " keywords: obsolete, undefined, not available
 syntax match texlogWarningKeyword	'o\n\?b\n\?s\n\?o\n\?l\n\?e\n\?t\n\?e\|u\n\?n\n\?d\n\?e\n\?f\n\?i\n\?n\n\?e\n\?d\|n\n\?o\n\?t\_s\+a\n\?v\n\?a\n\?i\n\?l\n\?a\n\?b\n\?l\n\?e' 
